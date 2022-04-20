@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    
 </head>
 
 <body>
+    <div class="container">
     <div class="main">
         <div class="navbar">
             <div class="icon">
@@ -38,11 +40,11 @@
             <p class="par">Your comfort at your fingertip <br>Connect with people you want to meet <br>
                 Just connect
             </p>
-            <button class="cn">Get started</button>
+            <button onlclick="doSomething()">Get started</button>
         </div>
 
         <div class="form">
-            <h2>Login here</h2>
+            <h2 class="log">Login here</h2>
             <input type="email" name="email" placeholder="Enter email Here">
             <input type="password" name="password" placeholder="enter passwort here">
             <button class="bt"><a href="#">Login</a></button>
@@ -50,10 +52,12 @@
 
         <div class="final">
             <p class="link">don't have an account</p><br>
-            <a href="#">sign up <a> here</a>
+            <a href="#" class="sign">sign up <span><a href="" class="here"> here</a></span>
             <p class="liw">Log in with</p>
         </div>
-    </div>      
+    </div>   
+    
+    <script src="./web.js"></script>
 </body>
 
 </html>

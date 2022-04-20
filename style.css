@@ -2,7 +2,7 @@
       width: 50%;
       height: 100vh;
       background-size: cover;
-     background-image: url(./back-G/pexels-allan-mas-5368947.jpg);
+     background-image: url(../back-G/pexels-allan-mas-5368947.jpg);
  }
 .navbar{
         width: 1200px;
@@ -91,16 +91,12 @@ ul li a:hover{
     height: auto;
     font-size: 20px;
     margin: auto;
-    color: #ffe4c4;
+    color: #def513;
     letter-spacing: 2px;
     line-height: 30px;
 }
 p{
      font-size: 23px;
-     
-
-
-
 }
 button{
     font-size: 19px;
@@ -116,6 +112,7 @@ button:hover{
 }
 
 .form{
+    
     width: 280px;
     top: 120px;
     height: 470px;
@@ -135,12 +132,12 @@ button:hover{
     font-size: 22px;
     background-color: aliceblue;
     border-radius: 10px;
-    margin: 2px;
-padding: 8px; margin-left: 34px; 
+    margin-top: 22px;
+padding: 8px; margin-left: 24px; 
 }
 
 .form input{
-    width: 240px;
+    width: 210px;
     height: 35px;
     background: transparent;
     border-bottom: solid 1px blue;
@@ -149,7 +146,8 @@ padding: 8px; margin-left: 34px;
     border-left: none;
     color: blueviolet;
     letter-spacing: 1px;
-    margin-top: 3px;
+    margin-top: 13px;
+    margin-left: 34px;
 }
 
 .form input:focus{
@@ -168,7 +166,7 @@ padding: 8px; margin-left: 34px;
     font-size: 28px;
     cursor: pointer;
     transition: 0.4s;
-
+    margin-left: 24px;
 }
 .bt:hover{
     color: antiquewhite;
@@ -184,11 +182,17 @@ padding: 8px; margin-left: 34px;
     text-align: center;
     font-size: 20px
 }
-.final a{
-    margin: 18px;
+.final{
     text-align: center;
-    color: aqua;font-size: 25px;
+}
+.sign{
+    color: rgb(240, 53, 21);
+    font-size: 25px;
     text-decoration: none;
+}
+.here{
+    text-decoration: none;
+    font-size: 22px;
 }
 .liw{
     padding-top: 15px;
